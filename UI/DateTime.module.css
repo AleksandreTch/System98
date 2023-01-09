@@ -1,0 +1,6 @@
+.dateTimeContainer{
+    display: flex;
+    font-family: 'VT323', monospace;
+    justify-content: space-between;
+    padding: 5px;
+}

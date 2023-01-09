@@ -1,0 +1,20 @@
+.mainBtn{
+    font-size: 1.25rem;
+    height: 1.75rem;
+    width: 5rem;
+    text-transform: uppercase;
+    font-family: 'VT323', monospace;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    border-top: 2px white solid;
+    border-left: 2px white solid;
+    cursor: pointer;
+}
+
+.mainBtn:focus{
+    background: rgb(202, 202, 202);
+    border-bottom: 2px white solid;
+    border-right: 2px white solid;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+}

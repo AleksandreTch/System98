@@ -1,4 +1,5 @@
 .startBar {
+    display: flex;
     position: absolute;
     margin-top: auto;
     bottom: 0;
@@ -7,6 +8,7 @@
     background: #DBDBDB;
     border: 3px #fff;
     z-index: 1;
+    align-items: center;
 }
 .startBarOuter {
     position: absolute;
@@ -19,6 +21,65 @@
     border: 1.25px solid white;
 }
 
+.mainBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 6rem;
+    padding-top: 5px;
+
+}
+
 .btns {
     z-index: 3;
+    border: 1px solid red;
+}
+
+.startBarDeviderOne{
+    height: 1.75rem;
+    width: 2px;
+    margin-top: .25rem;
+    background: rgb(119, 119, 119);
+    z-index: 5;
+    border-right: white 1px solid;   
+}
+
+.startBarDeviderTwo{
+    height: 1.5rem;
+    width:3px;
+    margin-top: .25rem;
+    margin-left: 2px;
+    background: #DBDBDB;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right:1px solid rgb(119, 119, 119);
+    border-bottom:1px solid rgb(119, 119, 119);
+}
+
+.iconsContainer img{
+    width: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 9px;
+}
+
+.infoBar{
+    margin-top: .25rem;
+    margin-right: 10px;
+    margin-left: auto;
+    border-top: 2px solid rgb(119, 119, 119);
+    border-left: 2px solid rgb(119, 119, 119);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    width: 9.25rem;
+    height: 1.75rem;
+}
+
+#contact{
+    cursor: pointer;    
+}
+
+#search{
+    cursor: pointer;
 }
